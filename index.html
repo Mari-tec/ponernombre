@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="estilosc.css">
+
+<body>
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("nun").value);
+        var n2= Number(document.getElementById("num").value);
+        var sumar=n1+n2;
+        document.getElementById('sumar').value=sumar;
+        x.push(sumarr);
+        sumar.value=x.length;
+        document.getElementById('con').value=x;
+        
+
+        }
+
+</script>
+<form>
+        <label class="t" > CALCULADORA </label><br>
+        <input class="i1" type="text" id="nun" placeholder="Ingresa un numero" ><br><br>
+        <input class="i2" type="text" id="num" placeholder="Ingresa un numero" ><br><br>
+        <br>
+        <br>
+        <input class="b1" type="button" value="Ingresar" onclick="suma();">
+        <br>
+        <br>
+        <label class="re" > RESULTADO: </label><br>
+        <input class="su" type="" id="sumar" value="">
+
+    </form>
+
+</body>
+</html>
